@@ -26,12 +26,14 @@ public class SoundPlayer : MonoBehaviour
 
     public void PlayBacking() {
         AudioClip[] songSections = new AudioClip[] { twinkle1, twinkle2, twinkle3, twinkle4, twinkle5, twinkle6 };
-        AudioClip songSection = songSections[gmScript.startingIndex / gmScript.numBlocksInSection];
+         // calculate song section based on current position in song
+        AudioClip songSection = songSections[gmScript.startingIndex / gmScript.numBlocksInSection];    
         AudioSource audio = GetComponent<AudioSource>();
         audio.clip = songSection;
         audio.Play();
     }
 
+    // plays short clip of silence to stop all other sounds
     public void StopSoundPlayer() {
         AudioSource audio = GetComponent<AudioSource>();
         audio.clip = stopper;
