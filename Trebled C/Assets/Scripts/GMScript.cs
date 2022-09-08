@@ -6,34 +6,6 @@ using UnityEngine.UI;
 [RequireComponent(typeof(AudioSource))]
 public class GMScript : MonoBehaviour
 {
-    // enum Midi
-    // {
-    //     C3=48,
-    //     CS3,
-    //     D3,
-    //     DS3,
-    //     E3,
-    //     F3,
-    //     FS3,
-    //     G3,
-    //     GS3,
-    //     A3,
-    //     AS3,
-    //     B3,
-    //     C4,
-    //     CS4,
-    //     D4,
-    //     DS4,
-    //     E4,
-    //     F4,
-    //     FS4,
-    //     G4,
-    //     GS4,
-    //     A4,
-    //     AS4,
-    //     B4,
-    //     C5
-    // }
 
     //---------------------------- AUDIO CLIPS -------------------------------------------
     public AudioClip c3;
@@ -92,12 +64,9 @@ public class GMScript : MonoBehaviour
     private int[] song = new int[] {60, 60, 67, 67, 69, 69, 67, 65, 65, 64, 64, 62, 62, 60, 67, 67, 65, 65, 64, 64, 62, 67, 67, 65, 65, 64, 64, 62, 60, 60, 67, 67, 69, 69, 67, 65, 65, 64, 64, 62, 67, 60};    // array of midi Numbers of pitches in song
     // private int[] song = new int[] {60, 67, 64, 67, 69, 67, 64, 62, 67, 60, 67, 62, 59, 60 };
     
-    // private float[] xs = new float[] {0, 3, 6};
-    // private float[] ys = new float[] {0, 0, 0};
-    // private List<Note> notes = new List<Note>();
     public int numBlocksInSection = 7;
     private int numNotes = 42;
-    // private int numNotes = 14;
+
 
     //-------------------------- STATE OF GAME VARIABLES --------------------------------
     public int startingIndex = 0;  // index for pirate to start at each stage
@@ -112,10 +81,11 @@ public class GMScript : MonoBehaviour
     private bool running = false;
     private bool inMenu = true;
     
-
     public float moveSpeed = 1.0f;
     public Vector3 moveVector;
-
+    
+    
+    //-------------------------- FUNCTIONS --------------------------------
     private void Start() {
         soundPlayer.PlayMenuSong();
     }
@@ -213,7 +183,6 @@ public class GMScript : MonoBehaviour
             int nextNote = song[currentIndex];
             int interval = nextNote - currentNote;
             jumpForce = (float)((interval + 16) * 26);     // calculate jump force with interval
-            // jumpForce = (float)interval * 200;
             playerMovement.Jump(jumpForce);
             currentIndex++;
         }
