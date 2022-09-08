@@ -1,4 +1,4 @@
-# The-Trebled-C
+# The Trebled C
 The Trebled C is a Unity 2D platformer designed to train a fronto-temporal pathway, associated with pitch encoding and short-term memory.
 
 ### Demo Video (Click GIF for Youtube Video)
