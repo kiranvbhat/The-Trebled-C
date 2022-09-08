@@ -4,6 +4,7 @@ The Trebled C is a Unity 2D platformer designed to train a fronto-temporal pathw
 ### Demo Video
 
 [![The Trebled C](https://imgur.com/ojDvaki.gif)](https://www.youtube.com/watch?v=cAAEySOGntU "The Trebled C")
+Click Gif for Youtube Video
 
 
 ### Research Poster
