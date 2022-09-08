@@ -9,17 +9,6 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed = 10f;
     public bool jump = false;
     public float jumpForce = 600f;
-    // Update is called once per frame
-    void Update()
-    {
-        // horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-        // if (Input.GetButtonDown("Jump"))
-        // {
-        //     jump = true;
-        // }
-    }
-
 
     private void FixedUpdate()
     {
