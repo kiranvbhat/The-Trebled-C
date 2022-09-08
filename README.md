@@ -13,7 +13,7 @@ The Trebled C is a Unity 2D platformer designed to train a fronto-temporal pathw
 * Main Game Manager Script: `Trebled C/Assets/Scripts/GMScript.cs`
 
 ### Setup Instructions
-* Clone Repo and open `Trebled C` folder with Unity Hub, using Unity version 2020.3.5f1
+* Clone Repo and open `Trebled C/` folder with Unity Hub, using Unity version 2020.3.5f1
 * Connect MIDI piano to computer -- MIDI controller is **required** to play. MIDI Device will be automatically configured after plugging device in.
 * Press the play button in Unity, and enjoy the game!
 * Note: The game has been designed for a laptop display -- the game may not scale correctly for other devices.
