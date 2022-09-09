@@ -58,6 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-# .DS_Store directory
+# .DS_Store file (Mac folder settings)
 **/.DS_Store
 
