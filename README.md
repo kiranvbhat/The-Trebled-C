@@ -8,7 +8,7 @@ The Trebled C is a Unity 2D platformer designed to train a fronto-temporal pathw
 
 
 ### Research Poster
-[![The Trebled C Research Poster](https://imgur.com/fF7qopJ.png)](https://drive.google.com/file/d/1C0ouUA6GtyKidZU73UXL2YtjWVSfoBiE/view "The Trebled C Research Poster")
+[![The Trebled C Research Poster](https://imgur.com/fF7qopJ.png)](https://drive.google.com/file/d/1fpbBhvswLQPDHf9lVKvwNas0APR-qEGJ/view?usp=sharing "The Trebled C Research Poster")
 
 
 ### Important Code
